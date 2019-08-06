@@ -7,12 +7,11 @@ body {
 }
 
 .box {
-    height: 100px;
+    width: 100px;
     text-align: center;
     font-size: 30px;
     box-sizing: border-box;
     color: white;
-    width: 400px;
 }
 
 .container {
@@ -42,9 +41,33 @@ body {
     display: flex;
     border: 5px black solid;
     height: 70vh;
-    align-items: stretch;
+    align-items: center;
 }
 
+.container-5 {
+    display: flex;
+    border: 5px black solid;
+    height: 70vh;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-6 {
+    display: flex;
+    border: 5px black solid;
+    height: 200vh;
+    flex-direction: row;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+
+.container-6 .box{
+    font-size: 100px;
+    width: 300px;
+    height: 300px;
+}
 
 .box-1 {
     background: #e51400;
